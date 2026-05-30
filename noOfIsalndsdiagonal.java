@@ -1,5 +1,5 @@
- import java.util.*;
-class Main{
+import java.util.*;
+class noOfIslandsDiag{
     public static void noOfIslands(int r, int c, int rows, int cols, int[][]grid){
         if(r<0||c<0||r>=rows||c>=cols||grid[r][c]!=1)
         return;
