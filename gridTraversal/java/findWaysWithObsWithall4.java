@@ -1,3 +1,4 @@
+package gridTraversal.java;
 import java.util.*;
 class findWays4ways{
     static int findWays(int r, int c, int rows, int cols, int[][]grid,

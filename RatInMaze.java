@@ -1,4 +1,4 @@
-package RecursiveGridTraversal;
+
 import java.util.*;
 
 class RatInMaze {
@@ -164,3 +164,9 @@ class RatInMaze {
 // 1 solve(maze,i,j-1,N,cur+'L',paths);
 // 2 solve(maze,i,j+1,N,cur+'R',paths);
 // 3 solve(maze,i-1,j,N,cur+'U',paths);
+
+1 0 0 
+1 1 0
+1 1 0
+0 0
+1 1

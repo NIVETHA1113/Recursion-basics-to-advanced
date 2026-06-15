@@ -1,5 +1,6 @@
+package gridTraversal.java;
 import java.util.*;
-class findWays{
+class findWays1{
     public static int findWays(int r, int c, int rows, int cols){
         if(r==rows-1||c ==cols-1)
         return 1;

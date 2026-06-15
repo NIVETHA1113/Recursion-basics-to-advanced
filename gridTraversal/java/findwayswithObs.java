@@ -1,5 +1,6 @@
+package gridTraversal.java;
 import java.util.*;
-class Main{
+class findWaysWIthObs{
     static int findWays(int r, int c, int R, int C, int[][]grid){
         if(grid[r][c]==1)
         return 0;
