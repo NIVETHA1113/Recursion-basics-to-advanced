@@ -58,3 +58,11 @@ current = grid[r][c]
 inside for loop:
 if(grid[i][c]!= current)
     return false
+
+
+  for(int i=r-1,j=c+1,k=c-1;i>=0 || j<N || k>=0;i--,j++,k--){
+        if(j<N && grid[i][j] != current && grid[i][j]!=0 )
+        return false;
+        if(k>=0 && grid[i][k] != current && grid[i][k]!=0)
+        return false;
+    }
