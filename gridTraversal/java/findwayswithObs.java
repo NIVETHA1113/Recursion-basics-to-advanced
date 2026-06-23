@@ -6,6 +6,7 @@ class findWaysWIthObs{
         return 0;
         if(r==R-1|| c==C-1)
         return 1;
+
         return findWays(r+1,c,R,C,grid)+findWays(r,c+1,R,C,grid);
     }
     public static void main(String[]arg){
@@ -16,6 +17,12 @@ class findWaysWIthObs{
         for(int i=0;i<R;i++){
             for(int j=0;j<C;j++){
                 grid[i][j] = sc.nextInt();
+            }
+        }
+        int[][]dp = new int[R][C];
+        for(int i=0;i<R;i++){
+            for(int j=0;j<C;j++){
+                dp[i][j] = -1;
             }
         }
         if(grid[0][0]==1 || grid[R-1][C-1]==1){
